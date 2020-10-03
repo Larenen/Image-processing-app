@@ -16,7 +16,6 @@ namespace APO_Czerniawski
     public partial class CompressWindow : Form
     {
 
-        //Source SokolowLineProfile13
         private Image imageClone;
 
         public CompressWindow(ImageWindow imageWindow)
@@ -75,6 +74,7 @@ namespace APO_Czerniawski
             return null;
         }
 
+        //*******Source SokolowLineProfile13*******//
         private Bitmap BlockCompress(Bitmap bitmap, int value)
         {
             Bitmap bm = new Bitmap(bitmap);
@@ -160,6 +160,7 @@ namespace APO_Czerniawski
             }
             return bm;
         }
+        //*******Source SokolowLineProfile13*******//
 
         private void RadioButtonBlokowy_CheckedChanged(object sender, EventArgs e)
         {
